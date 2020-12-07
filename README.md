@@ -4,6 +4,9 @@
 ICSH<br>
 bser.gg<br><br>
 
+## 서버
+https://www.heroku.com/<br><br>
+
 ## 제공되는 서비스
 - 전적 검색
 - 캐릭터 목록

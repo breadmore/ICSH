@@ -34,10 +34,6 @@ module.exports = {
                         ]
                     }
                 }]
-            },
-            {
-                test: /\.(png|jpg|ico|svg|eot|woff|woff2|ttf)$/,
-                use: ['file-loader']
             }
         ]
     },

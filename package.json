@@ -1,11 +1,11 @@
 {
-  "name": "ICSH",
+  "name": "icsh",
   "version": "1.0.0",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/plugin-proposal-decorators": "^7.3.0",
-    "@babel/polyfill": "^7.2.5",
+    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
@@ -22,5 +22,20 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.3.1"
-  }
+  },
+  "description": "ICSH",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breadmore/ICSH.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breadmore/ICSH/issues"
+  },
+  "homepage": "https://github.com/breadmore/ICSH#readme"
 }
