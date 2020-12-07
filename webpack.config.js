@@ -1,12 +1,14 @@
 const path = require("path")
+const MiniCssExtractPlugin  = require("mini-css-extract-plugin")
 
 module.exports = {
+    mode: "development",
     entry: [
         '@babel/polyfill',
         "./web/app.js"
     ],
     output: {
-        filename: 'flask_react_router.js',
+        filename: "flask_react_router.js",
         path: path.resolve(__dirname, "static"),
         publicPath: "/static/"
     },
